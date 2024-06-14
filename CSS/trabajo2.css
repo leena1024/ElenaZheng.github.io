@@ -1,0 +1,88 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+
+p {
+  margin-bottom: 2.13rem;
+}
+    
+div:last-child p{
+  margin-bottom: 0;
+}
+
+.ruta{
+  margin-left:15px; 
+  color:#999;
+  margin-bottom:0;
+}
+.ruta a, .ruta visited{
+  color:crimson;text-decoration: none;
+}
+
+h2{
+  padding-top:0;
+  line-height:2.50rem;
+  margin-bottom: 0.999rem;
+}
+
+.introduccion{
+  grid-column:1 / span 6;
+  grid-row:1 / span 1;}
+
+.introduccion p{
+  margin-bottom:0;
+}
+
+.fukushimacartel{
+  grid-column:1 / span 3;
+  grid-row:2 / span 1;
+  align-self:flex-start;
+}
+
+.cartelfukushima2{  
+  grid-column:4 / span 4;
+  grid-row:2 / span 1;
+  align-self:flex-start;
+}
+
+.cartelfukushima3{
+  grid-column:8 / span 3;
+  grid-row:2/ span 1;
+  align-self:flex-start;
+}
+
+
+.pagination {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  flex-direction:row;
+  justify-content:space-between;
+  padding: 0px 15px 15px 15px;
+}
+
+.pagination a {
+  color: crimson;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+  border: 1px solid #ddd;
+}
+a.pag:hover{
+  background-color: #ddd;   
+}
+
+@media (max-width: 912px) {
+  
+ 
+   .container {
+   display:block;
+   margin-left: 15px; 
+   margin-right: 15px;
+  }
+   div.introduccion{
+   margin-bottom:25px;
+    }
+}
